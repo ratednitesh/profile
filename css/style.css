@@ -1,0 +1,46 @@
+  .bg-black {
+    background: #000;
+    color: #fff; }
+
+    .bg-white {
+        background: #fff;
+        color: #000; }
+  #main-header img {
+    width: 100%;
+    height: 100%;
+   
+  
+}
+  
+  #main-header .port-item {
+    width: 30%; }
+ 
+  #main-header .port-item .fa {
+      font-size: 2em; }
+  
+  #main-header .port-item:hover {
+    opacity: 0.8;
+    cursor: pointer; }
+  
+
+
+body {
+            background-color: rgba(2, 7, 46, 0.555) !important;
+ }
+
+ 
+ @media only screen and (max-width: 1200px) {
+    #extraHeads {
+        display: none;
+    }
+  
+}
+
+
+@media only screen and (max-width: 767px) {
+  
+    #ProfilePhoto{
+        display: none !important;
+    }
+}
+
